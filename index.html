@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+    crossorigin="anonymous">
+  <!-- Sass Bootstrap -->
+  <link href="resources/scss/custom.css" rel="stylesheet">
+  <!-- Roboto Mono Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <!-- Carme Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Carme&display=swap" rel="stylesheet">
+  <!-- Main css -->
+  <link href="main.css" rel="stylesheet">
+  <!-- Particle.js -->
+  <script type="text/javascript" src="particles.js"></script>
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <!-- particles.js container -->
+  <div id="particles-js"></div>
+
+  <!-- ==========================================================================
+ | Navigation Header
+ ========================================================================== -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <code><</code>A<code>></code></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#scrollspyHeading2">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#scrollspyHeading3">Web Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#scrollspyHeading4">Skills</a>
+          </li>
+      </div>
+      <!-- Github -->
+      <a href="https://github.com/ahrwn" target="_blank" type="button" class="btn btn-outline-primary mx-1">Github <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+          class="bi bi-github mb-1" viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+        </svg></a>
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/aaronsamuelhauck/" target="_blank" type="button" class="btn btn-outline-primary mx-1">LinkedIn <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+          fill="currentColor" class="bi bi-linkedin mb-1" viewBox="0 0 16 16">
+          <path
+            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+        </svg></a>
+      <!-- Discord -->
+      <a href="https://discordapp.com/users/327579207301595148" target="_blank" type="button" class="btn btn-outline-primary mx-1">Discord <svg xmlns="http://www.w3.org/2000/svg" width="20"
+          height="20" fill="currentColor" class="bi bi-discord mb-1" viewBox="0 0 16 16">
+          <path
+            d="M6.552 6.712c-.456 0-.816.4-.816.888s.368.888.816.888c.456 0 .816-.4.816-.888.008-.488-.36-.888-.816-.888zm2.92 0c-.456 0-.816.4-.816.888s.368.888.816.888c.456 0 .816-.4.816-.888s-.36-.888-.816-.888z" />
+          <path
+            d="M13.36 0H2.64C1.736 0 1 .736 1 1.648v10.816c0 .912.736 1.648 1.64 1.648h9.072l-.424-1.48 1.024.952.968.896L15 16V1.648C15 .736 14.264 0 13.36 0zm-3.088 10.448s-.288-.344-.528-.648c1.048-.296 1.448-.952 1.448-.952-.328.216-.64.368-.92.472-.4.168-.784.28-1.16.344a5.604 5.604 0 0 1-2.072-.008 6.716 6.716 0 0 1-1.176-.344 4.688 4.688 0 0 1-.584-.272c-.024-.016-.048-.024-.072-.04-.016-.008-.024-.016-.032-.024-.144-.08-.224-.136-.224-.136s.384.64 1.4.944c-.24.304-.536.664-.536.664-1.768-.056-2.44-1.216-2.44-1.216 0-2.576 1.152-4.664 1.152-4.664 1.152-.864 2.248-.84 2.248-.84l.08.096c-1.44.416-2.104 1.048-2.104 1.048s.176-.096.472-.232c.856-.376 1.536-.48 1.816-.504.048-.008.088-.016.136-.016a6.521 6.521 0 0 1 4.024.752s-.632-.6-1.992-1.016l.112-.128s1.096-.024 2.248.84c0 0 1.152 2.088 1.152 4.664 0 0-.68 1.16-2.448 1.216z" />
+        </svg></a>
+      <!-- Twitter -->
+      <a href="https://twitter.com/ahrwn_" target="_blank" type="button" class="btn btn-outline-primary mx-1">Twitter <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+          class="bi bi-twitter mb-1" viewBox="0 0 16 16">
+          <path
+            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+        </svg></a>
+      <!-- Email -->
+      <a href="mailto:work@aaronsamuel.de" type="button" class="btn btn-outline-primary mx-1">E-Mail Me <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+          class="bi bi-envelope-fill mb-1" viewBox="0 0 16 16">
+          <path
+            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+        </svg>
+        </svg></a>
+    </div>
+  </nav>
+
+  <!-- Scrollspy -->
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+    <!-- =========================================================================
+  | Cover
+  ========================================================================= -->
+    <section class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <h1 id="scrollspyHeading1" class="display-4 text-center">Aaron-Samuel Hauck</h1>
+          <p class="fs-4 text-center">Accidentally found love for writing code, during a spiritual journey through India.</p>
+          <img id="scrollspyHeading2" class="mt-5 aaron_picture rounded mx-auto d-block" alt="aaron-samuel hauck" src="resources/img/aaronsamuel.png">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center mt-4">
+          <!-- Email -->
+          <a href="mailto:work@aaronsamuel.de" type="button" class="btn btn-secondary mx-1 btn-lg hire_me_btn">Hire me <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+              fill="currentColor" class="bi bi-envelope-fill mb-1" viewBox="0 0 16 16">
+              <path
+                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+            </svg>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+  | Projects
+  ========================================================================= -->
+    <section class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <h2 id="scrollspyHeading3" class="display-5 text-center">Web Projects</h2>
+          <hr>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mt-5">
+      <div class="row">
+        <div class="col-6">
+          <h2 class="display-4">Avag</h2>
+          <a href="https://villageaction.in" target="_blank"><img class="avag_screenshot shadow-lg mt-2" src="resources/img/screencapture-villageaction-in-2021-05-04-21_16_40.png"></a>
+        </div>
+
+        <div class="col-6">
+          <h3 class="display-6">Details</h3>
+          <p class="fs-5">
+            Developed a web application for avag. They needed a fast and reliable website that protrais them as a NGO.
+          </p>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-secondary mb-4 mt-1 btn_open_avag" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            More Details
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text-dark" id="exampleModalLabel">More Information about the Project</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <h4 class="text-dark">About the NGO Avag 💼</h4>
+                        <p class="fs-6 text-dark mb-4">
+                          Auroville Village Action Group (AVAG), founded in 1983, is an NGO committed to grass roots and integrated community building with the villages surrounding Auroville, Tamil
+                          Nadu,
+                          India. Rather than addressing isolated development challenges, AVAG places the complex web of relationships between human beings, their behaviours, traditions and prejudices,
+                          at
+                          the foundation of its programmes and work with villagers.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <h4 class="text-dark">The development process 💻</h4>
+                        <p class="fs-6 text-dark mb-4">
+                          To use or not to use Bootstrap wasnt even the question. Fastly created the structure of the site with give container elements. The content was created by avag, and handed over with google docs. 
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <h4 class="text-dark">Difficulties ⚡</h4>
+                        <p class="fs-6 text-dark mb-4">
+                          From a techniocal standpoint there werent any difficulties. The biggest challenge was the communitcation with avag. Working with different cultures stays interesting and hard to do. 
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <h4 class="text-dark">Some data & statistics 🗃️</h4>
+                          <ul class="fs-6 mb-4">
+                            <li class="text-dark">
+                              Time spent on project: Almost everyday around 2-3 hours for two weeks straight. Sadly a tracking software is to costly for an exact report.
+                            </li>
+                            <li class="text-dark">
+                              Domains: <a class="text-primary" href="https://www.avag.in">avag.in</a> +
+                              <a class="text-primary" href="https://www.villageaction.in">villageaction.in</a>
+                            </li>
+                          </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col mt-3">
+                        <ion-icon size="" name="logo-html5"></ion-icon>
+                        <ion-icon size="" name="logo-css3"></ion-icon>
+                        <ion-icon size="" name="logo-sass"></ion-icon>
+                        <ion-icon size="" name="logo-nodejs"></ion-icon>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="currentColor" class="bi bi-bootstrap mb-5 bootstrap_icon_modal" viewBox="0 0 16 16">
+                          <path
+                            d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377H6.375z" />
+                          <path d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H4z" />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <h3 class="display-6">Technologies</h3>
+          <p class="fs-5">
+            The following technologies were used to achieve desired results.
+          </p>
+          <ul class="fs-5">
+            <li>
+              HTML
+              <ion-icon size="small" name="logo-html5"></ion-icon>
+            </li>
+            <li>
+              CSS
+              <ion-icon size="small" name="logo-css3"></ion-icon>
+            </li>
+            <li>
+              SASS
+              <ion-icon size="small" name="logo-sass"></ion-icon>
+            </li>
+            <li>
+              JavaScript
+              <ion-icon size="small" name="logo-nodejs"></ion-icon>
+            </li>
+            <li>
+              Bootstrap
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bootstrap" viewBox="0 0 16 16">
+                <path
+                  d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377H6.375z" />
+                <path d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H4z" />
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <h2 id="scrollspyHeading4" class="display-5 text-center">Skills</h2>
+          <hr>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <div class="card shadow-lg" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="h3 card-title text-dark">HTML</h5>
+              <p class="card-text text-dark">The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by
+                technologies such as Cascading Style Sheets and scripting languages such as JavaScript.</p>
+              <ion-icon class="text-center" size="" name="logo-html5"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="h3 card-title text-dark">CSS</h5>
+              <p class="card-text text-dark">Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a
+                cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+              <ion-icon class="text-center" size="" name="logo-css3"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="h3 card-title text-dark">Sass</h5>
+              <p class="card-text text-dark">Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets. SassScript is the scripting language itself. Sass
+                consists of two syntaxes. The original syntax, called "the indented syntax," uses a syntax similar to Haml.</p>
+              <ion-icon class="text-center" size="" name="logo-sass"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col">
+          <div class="card shadow-lg" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="h3 card-title text-dark">JavaScript</h5>
+              <p class="card-text text-dark">JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time
+                compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.</p>
+              <ion-icon class="text-center" size="" name="logo-nodejs"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="h3 card-title text-dark">php</h5>
+              <p class="card-text text-dark">PHP is a general-purpose scripting language especially suited to web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in
+                1994. The PHP reference implementation is now produced by The PHP Group.</p>
+              <img class="php_icon" src="resources/img/php.png">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="h3 card-title text-dark">Vue</h5>
+              <p class="card-text text-dark">Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by
+                Evan You, and is maintained by him and the rest of the active core team members.</p>
+              <ion-icon class="text-center" size="" name="logo-vue"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scrollspy -->
+  </div>
+  <!-- =======================================================================
+  |  Footer
+  ======================================================================= -->
+  <footer class="container-fluid bg-dark mt-5">
+    <div class="row mb-3">
+      <div class="col text-center mt-4">
+        <!-- Social -->
+        <a href="https://github.com/ahrwn" target="_blank">
+          <!-- Github -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+            <path
+              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+          </svg>
+        </a>
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/aaronsamuelhauck/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path
+              d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+          </svg>
+        </a>
+        <!-- Discord -->
+        <a href="https://discordapp.com/users/327579207301595148" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+            <path
+              d="M6.552 6.712c-.456 0-.816.4-.816.888s.368.888.816.888c.456 0 .816-.4.816-.888.008-.488-.36-.888-.816-.888zm2.92 0c-.456 0-.816.4-.816.888s.368.888.816.888c.456 0 .816-.4.816-.888s-.36-.888-.816-.888z" />
+            <path
+              d="M13.36 0H2.64C1.736 0 1 .736 1 1.648v10.816c0 .912.736 1.648 1.64 1.648h9.072l-.424-1.48 1.024.952.968.896L15 16V1.648C15 .736 14.264 0 13.36 0zm-3.088 10.448s-.288-.344-.528-.648c1.048-.296 1.448-.952 1.448-.952-.328.216-.64.368-.92.472-.4.168-.784.28-1.16.344a5.604 5.604 0 0 1-2.072-.008 6.716 6.716 0 0 1-1.176-.344 4.688 4.688 0 0 1-.584-.272c-.024-.016-.048-.024-.072-.04-.016-.008-.024-.016-.032-.024-.144-.08-.224-.136-.224-.136s.384.64 1.4.944c-.24.304-.536.664-.536.664-1.768-.056-2.44-1.216-2.44-1.216 0-2.576 1.152-4.664 1.152-4.664 1.152-.864 2.248-.84 2.248-.84l.08.096c-1.44.416-2.104 1.048-2.104 1.048s.176-.096.472-.232c.856-.376 1.536-.48 1.816-.504.048-.008.088-.016.136-.016a6.521 6.521 0 0 1 4.024.752s-.632-.6-1.992-1.016l.112-.128s1.096-.024 2.248.84c0 0 1.152 2.088 1.152 4.664 0 0-.68 1.16-2.448 1.216z" />
+          </svg>
+        </a>
+        <!-- Twitter -->
+        <a href="https://twitter.com/ahrwn_" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+            <path
+              d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <!-- Copyright -->
+    <div class="row">
+      <div class="col">
+        <div class="text-center text-white">
+          © 2021 Copyright:
+          <a class="text-white" href="mailto:work@aaronsamuel.de">Aaron-Samuel Hauck</a>
+        </div>
+        <div class="text-center text-white p-3">
+          Made with <code><</code><code>/</code><code>3</code>
+          <a class="text-white" target="_blank" href=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+  | Scripts
+  ========================================================================= -->
+  <!-- Bootstrap JavaScript Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <!-- Ionicons -->
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  <!-- Custom JavaScript -->
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

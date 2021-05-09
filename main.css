@@ -1,0 +1,165 @@
+* {
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  background-color: #1a3044;
+  position: relative;
+}
+
+.profile_img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+hr {
+  color: #f0f0f0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f0f0f0;
+}
+
+a {
+  color: rgb(240, 240, 240);
+}
+
+a:hover,
+a:active {
+  color: #98f7d7;
+}
+
+p {
+  color: #dddddd;
+}
+
+ul,
+li {
+  color: #dddddd;
+}
+
+code {
+  color: #dddddd;
+}
+
+.list-group {
+  color: #f0f0f0;
+}
+
+#list-navigation {
+  width: 15%;
+  margin-top: 20%;
+}
+
+.aaron_picture {
+  width: 20%;
+  /* border-radius: 90%; */
+  box-shadow: 5px 5px;
+  opacity: 0.95;
+  transition: all 0.2s ease-in-out;
+}
+
+.aaron_picture:hover {
+  opacity: 1;
+  transition: 200ms;
+  transform: scale(1.1);
+}
+
+/* ---- particles.js container ---- */
+#particles-js canvas {
+  display: block;
+  /* vertical-align: bottom; */
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  -webkit-transition: opacity 0.8s ease, -webkit-transform 1.4s ease;
+  transition: opacity 0.8s ease, transform 1.4s ease;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -10;
+  top: 0;
+  left: 0;
+}
+
+/* Project */
+.avag_screenshot {
+  width: 65%;
+  opacity: 0.9;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.avag_screenshot:active,
+.avag_screenshot:hover {
+  opacity: 1;
+  transition: 200ms;
+  transform: scale(1.03);
+}
+
+.avag_screenshot:visited,
+.avag_screenshot:link {
+  outline: none;
+}
+
+.btn_open_avag {
+}
+
+.navbar-brand {
+  font-family: "Carme", sans-serif;
+  font-size: 1.25rem;
+}
+
+ion-icon {
+  font-size: 64px;
+  transition: all 0.2s ease-in-out;
+}
+
+ion-icon:hover {
+  transform: scale(1.1);
+}
+
+svg {
+  transition: all 0.2s ease-in-out;
+}
+
+svg:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  opacity: 0.9;
+  transition: all 0.2s ease-in-out;
+  border-radius: 2%;
+}
+
+.card:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.php_icon {
+  width: 25%;
+  transition: all 0.2s ease-in-out;
+}
+
+.php_icon:hover {
+  transform: scale(1.1);
+}
+
+.bootstrap_icon_modal {
+  margin-bottom: 5.145% !important;
+}
+
+.hire_me_btn {
+  width: 25%;
+}
