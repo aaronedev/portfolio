@@ -163,3 +163,41 @@ svg:hover {
 .hire_me_btn {
   width: 25%;
 }
+
+.color_avag_purple {
+  height: 125px;
+  width: 125px;
+  background-color: #791D59;
+  border-radius: 50%;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+}
+
+.color_avag_yellow {
+  height: 125px;
+  width: 125px;
+  background-color: #E98C23;
+  border-radius: 50%;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+}
+
+.color_avag_brown {
+  height: 125px;
+  width: 125px;
+  background-color: #4F3A1E;
+  border-radius: 50%;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+}
+
+.color_avag_purple:hover,
+.color_avag_yellow:hover,
+.color_avag_brown:hover {
+  transform: scale(1.1);
+}
+
+.header_avag {
+  font-family: ;
+  font-weight: 700 !important;
+}
