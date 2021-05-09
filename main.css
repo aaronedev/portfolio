@@ -167,7 +167,7 @@ svg:hover {
 .color_avag_purple {
   height: 125px;
   width: 125px;
-  background-color: #791D59;
+  background-color: #791d59;
   border-radius: 50%;
   display: inline-block;
   transition: all 0.2s ease-in-out;
@@ -176,7 +176,7 @@ svg:hover {
 .color_avag_yellow {
   height: 125px;
   width: 125px;
-  background-color: #E98C23;
+  background-color: #e98c23;
   border-radius: 50%;
   display: inline-block;
   transition: all 0.2s ease-in-out;
@@ -185,7 +185,7 @@ svg:hover {
 .color_avag_brown {
   height: 125px;
   width: 125px;
-  background-color: #4F3A1E;
+  background-color: #4f3a1e;
   border-radius: 50%;
   display: inline-block;
   transition: all 0.2s ease-in-out;
@@ -198,6 +198,19 @@ svg:hover {
 }
 
 .header_avag {
-  font-family: ;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
   font-weight: 700 !important;
+}
+
+.paragraph_avag {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  font-weight: 400 !important;
+}
+
+.branding_avag {
+  border: 2px solid;
 }
