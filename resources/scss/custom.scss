@@ -9,5 +9,10 @@ $info: #AEEEF7;
 $danger: #763E3E;
 $warning: #FFE03A;
 
+// Carousel
+$carousel-control-color: $secondary;
+$carousel-control-opacity: .7;
+$carousel-control-icon-width: 5rem;
+
 // BOOTSTRAP ORIGINAL FILES
 @import "../bootstrap-5.0.0-beta3/scss/bootstrap.scss";
