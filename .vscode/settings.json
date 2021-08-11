@@ -27,5 +27,9 @@
         "unde",
         "ut",
         "veritatis"
-    ]
+    ],
+    "color-highlight.sass.includePaths": [
+    
+    ],
+    "color-highlight.markerType": "foreground"
 }
